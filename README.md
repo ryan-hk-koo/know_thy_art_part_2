@@ -1,5 +1,5 @@
 # Know Thy Art Part Two
-- This project serves as both a continuation and an extension of 'Know Thy Art Part 1'[know_thy_art_part_1](https://github.com/ryan-hk-koo/know_thy_art_part_1)  
+- This project serves as both a continuation and an extension of [know_thy_art_part_1](https://github.com/ryan-hk-koo/know_thy_art_part_1)  
 - Continuation as an audio component was added to describe the style of the input painting and to provide an auditory guide on how to appreciate its style
 - Extension as new features like 'Speech to Art to Speech' and the 'Art Chatbot' were newly developed and incorporated into the service 
 
@@ -17,7 +17,8 @@ We aimed to create a playground for individuals who have a passion for art or ar
 ![image](https://github.com/ryan-hk-koo/know_thy_art_part_2/assets/143580734/97a2b0ee-5ed9-45ab-b117-6ca19b8318f6)
 
 # Speech To Art to Speech
-![image](https://github.com/ryan-hk-koo/know_thy_art_part_2/assets/143580734/771c30c1-dd57-4470-aad8-047ddfb08164)
+![image](https://github.com/ryan-hk-koo/know_thy_art_part_2/assets/143580734/2c7a6d5f-60ac-41e4-8fea-1b8cc1f42e94)
+
 - Stable Diffusion XL was used out of all the other Text to Image models (i.e. Dall-E 2 and  Midjourney) since it is open-source, and therefore, we were able to train it with our own dataset of images to provide better results for impressionism style and surrelism style
 
 ![image](https://github.com/ryan-hk-koo/know_thy_art_part_2/assets/143580734/ca0797dc-b2f6-4e57-bcd4-76669f14d18d)
