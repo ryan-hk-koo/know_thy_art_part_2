@@ -5,7 +5,8 @@
 
 <br>
 
-- Streamlit Demo on Youtube 
+- Streamlit Demo on Youtube
+[![Streamlit Demo](https://img.youtube.com/vi/CgBtw9AcVYY/maxresdefault.jpg)](https://youtu.be/CgBtw9AcVYY)
 
 # Purpose
 We aimed to create a playground for individuals who have a passion for art or are keen to learn more about it
