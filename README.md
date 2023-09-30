@@ -25,10 +25,16 @@ With these, we're not only expanding our services, but also strengthening our co
 - Used the Naver CLOVA Voice API to convert text into speech due to its high-quality, natural-sounding voice outputs and its customization options
 <br>
 
-# Speech To Art to Speech
+# Speech to Art to Speech
 ![image](https://github.com/ryan-hk-koo/know_thy_art_part_2/assets/143580734/2c7a6d5f-60ac-41e4-8fea-1b8cc1f42e94)
+- Utilized a combination of above four tools and Naver CLOVA Voice API to develop the 'Speech to Art to Speech' service
+  - <u>Google Web Speech</u>: Chosen for speech-to-text conversion due to its high accuracy in transcribing spoken words and its capability to filter out background noise
+  - <u>DeepL</u>: Employed for translating between Korean and English, valued for its contextual understanding and high-quality translations powered by deep learning models
+  - <u>Stable Diffusion XL</u>: Used for text-to-image generation. Being open-source, it allowed us to train with our dataset, achieving better results specifically for impressionism and surrealism styles
+  - <u>mPLUG-Owl</u>: Selected for image & prompt-to-text generation because of its high degree of accuracy. It ranks the highest among the multi-modal LLMs we considered, as evidenced by this [leaderboard](https://opencompass.org.cn/leaderboard-multimodal)
+    - The other models considered are MiniGPT-4 and InstructBLIP
 
-- Stable Diffusion XL was used out of all the other Text to Image models (i.e. Dall-E 2 and  Midjourney) since it is open-source, and therefore, we were able to train it with our own dataset of images to provide better results for impressionism style and surrelism style
+<br>
 
 ![image](https://github.com/ryan-hk-koo/know_thy_art_part_2/assets/143580734/ca0797dc-b2f6-4e57-bcd4-76669f14d18d)
 
