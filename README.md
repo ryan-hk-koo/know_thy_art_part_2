@@ -58,9 +58,9 @@ With these, we are not only expanding our services, but also strengthening our c
 # Art Chatbot
 - Designed to field user questions about art, sourcing detailed answers through a combination of database queries and web searches
 - Utilizes OpenAI's GPT models (text-davinci-003 & gpt-3.5-turbo-16k) with prompt engineering to ascertain if a user's question pertains to art
-- When art-related queries are identified, the chatbot consults a pre-established database to fetch answers. This involves utilizing prompt engineering with the GPT models to generate the appropriate SQLite3 query statements
+- When art-related queries are identified, the chatbot accesses the database to fetch answers. This involves utilizing prompt engineering with the GPT models to generate SQLite3 query statements
 - If no match is found within the database, the service, guided by prompt engineering, crafts a Google search term. The chatbot then uses Selenium with a headless ChromeDriver, complemented by BeautifulSoup, to retrieve comprehensive answers from the web
-- Users are guided to ask art-related questions if their inquiries stray off-topic.
+- Users are guided to ask art-related questions if their inquiries stray off-topic
 
 <br>
 
