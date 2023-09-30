@@ -28,16 +28,20 @@ With these, we're not only expanding our services, but also strengthening our co
 # Speech to Art to Speech
 ![image](https://github.com/ryan-hk-koo/know_thy_art_part_2/assets/143580734/2c7a6d5f-60ac-41e4-8fea-1b8cc1f42e94)
 - Utilized a combination of above four tools and Naver CLOVA Voice API to develop the 'Speech to Art to Speech' service
-  - <u>Google Web Speech</u>: Chosen for speech-to-text conversion due to its high accuracy in transcribing spoken words and its capability to filter out background noise
-  - <u>DeepL</u>: Employed for translating between Korean and English, valued for its contextual understanding and high-quality translations powered by deep learning models
-  - <u>Stable Diffusion XL</u>: Used for text-to-image generation. Being open-source, it allowed us to train with our dataset, achieving better results specifically for impressionism and surrealism styles
-  - <u>mPLUG-Owl</u>: Selected for image & prompt-to-text generation because of its high degree of accuracy. It ranks the highest among the multi-modal LLMs we considered, as evidenced by this [leaderboard](https://opencompass.org.cn/leaderboard-multimodal)
-    - The other models considered are MiniGPT-4 and InstructBLIP
+  - **Google Web Speech**: Chosen for speech-to-text conversion due to its high accuracy in transcribing spoken words and its capability to filter out background noise
+  - **DeepL**: Employed for translating between Korean and English, valued for its contextual understanding and high-quality translations powered by deep learning models
+  - **Stable Diffusion XL**: Used for text-to-image generation. Being open-source, it allowed us to train with our dataset, achieving better results specifically for impressionism and surrealism styles
+  - **mPLUG-Owl**: Selected for image & prompt-to-text generation because of its high degree of accuracy. It ranks the highest among the multi-modal LLMs we considered, as evidenced by this [leaderboard](https://opencompass.org.cn/leaderboard-multimodal)
+    - The other multi-modal LLMs considered were MiniGPT-4 and InstructBLIP
 
 <br>
 
+## Training Stable Diffusion XL
+
 ![image](https://github.com/ryan-hk-koo/know_thy_art_part_2/assets/143580734/ca0797dc-b2f6-4e57-bcd4-76669f14d18d)
 
+### Impressionism Style Training Before & After 
 ![image](https://github.com/ryan-hk-koo/know_thy_art_part_2/assets/143580734/ec7d6297-4a16-4895-94be-5a79d94ccb78)
 
+### Surrealism Style Training Before & After 
 ![image](https://github.com/ryan-hk-koo/know_thy_art_part_2/assets/143580734/e4dd77d5-1577-4008-a3fd-bb950c4e5f18)
