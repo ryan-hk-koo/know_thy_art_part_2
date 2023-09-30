@@ -1,7 +1,7 @@
 # Know Thy Art Part Two
-- This project serves as both a continuation and an extension of [know_thy_art_part_1](https://github.com/ryan-hk-koo/know_thy_art_part_1)  
-- Continuation as an audio component was added to 'Know Thy Art's Western Art Style Insight Tool' in identifying the style of the input painting and providing a guide on the nuances of each art style
-- Extension as new features like 'Speech to Art to Speech' and the 'Art Chatbot' were newly developed and incorporated into the service 
+- This project serves as both a continuation and an extension of [Know_Thy_Art_Part_1](https://github.com/ryan-hk-koo/know_thy_art_part_1)  
+- As a continuation, an audio component was added to 'Know Thy Art' in identifying the style of the input painting and providing a guide on the nuances of each art style (Western Art Style Insight Tool)
+- As an extension, new features, namely 'Speech to Art to Speech' and the 'Art Chatbot,' were  developed and incorporated into the service 
 
 <br>
 
@@ -10,10 +10,13 @@
 [![Streamlit Demo](https://img.youtube.com/vi/CgBtw9AcVYY/0.jpg)](https://youtu.be/CgBtw9AcVYY)
 
 # Purpose
-We aimed to create a playground for individuals who have a passion for art or are keen to learn more about it
-- **Know Thy Art**: We added an audio component to assist visually impaired individuals
-- **Speech To Art to Speech**: Taking inspiration from Text-to-Image and Image-to-Text AI models, we ventured a step further to enable the creation of art through speech and then to translate the art back into speech descriptions. This empowers blind individuals to craft their own artworks and understand them through auditory descriptions
+Building upon 'Know Thy Art Part 1' — which sought to deepen art appreciation and engagement — we further envisioned a space where art accessibility and interaction are paramount, especially for those who might experience art differently, such as the visually impaired. The second part of 'Know Thy Art' retains the core philosophy of fostering a profound connection with art but pushes the boundaries by introducing : 
+
+- **Know Thy Art Audio Assistance**: Complementing our original work, we integrated an audio component, ensuring that even visually impaired individuals can engage and resonate with the various styles of the paintings and their nuances 
+- **Speech To Art to Speech**: Inspired by Text-to-Image and Image-to-Text AI models, we ventured a step further. Now, users can create art through speech and subsequently translate visual art back into descriptive narratives, empowering blind or visually impaired individuals to both create and comprehend art in an auditory manner
 - **Art Chatbot**: Introduced to allow users to pose specific questions about art that aren't addressed by our other services, facilitating a deeper exploration of art
+
+With these, we're not only expanding our services, but also strengthening our commitment to making art a personalized, inclusive, and immersive experience for everyone
 
 <br>
 
