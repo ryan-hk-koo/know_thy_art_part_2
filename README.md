@@ -20,9 +20,9 @@ With these, we're not only expanding our services, but also strengthening our co
 
 <br>
 
-# Know Thy Art with Audio
+# Know Thy Art Audio Assistance
 ![image](https://github.com/ryan-hk-koo/know_thy_art_part_2/assets/143580734/97a2b0ee-5ed9-45ab-b117-6ca19b8318f6)
-
+- Used the Naver CLOVA Voice API to convert text into speech due to its high-quality, natural-sounding voice outputs and its customization options
 <br>
 
 # Speech To Art to Speech
