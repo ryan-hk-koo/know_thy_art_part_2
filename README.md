@@ -31,10 +31,10 @@ With these, we are not only expanding our services, but also strengthening our c
 # Speech to Art to Speech
 ![image](https://github.com/ryan-hk-koo/know_thy_art_part_2/assets/143580734/2c7a6d5f-60ac-41e4-8fea-1b8cc1f42e94)
 - Utilized a combination of above four tools and Naver CLOVA Voice API to develop the 'Speech to Art to Speech' service
-  - **Google Web Speech**: Chosen for speech-to-text conversion due to its high accuracy in transcribing spoken words and its capability to filter out background noise
-  - **DeepL**: Employed for translating between Korean and English, valued for its contextual understanding and high-quality translations powered by deep learning models
-  - **Stable Diffusion XL**: Used for text-to-image generation. Being open-source, it allowed us to train with our dataset, achieving better results specifically for impressionism and surrealism styles
-  - **mPLUG-Owl**: Selected for image & prompt-to-text generation because of its high degree of accuracy. It ranks the highest among the multi-modal LLMs we considered, as evidenced by this [leaderboard](https://opencompass.org.cn/leaderboard-multimodal)
+  - **Google Web Speech**: Selected for speech-to-text conversion due to its high accuracy in transcribing spoken words and its capability to filter out background noise
+  - **DeepL**: Selected for translating between Korean and English due to its contextual understanding and high-quality translations powered by deep learning models
+  - **Stable Diffusion XL**: Selected for text-to-image generation. Being open-source, we were able to train it with our dataset, achieving better results specifically for impressionism and surrealism styles
+  - **mPLUG-Owl**: Selected for image & prompt-to-text generation due to its high degree of accuracy. It ranks the highest among the multi-modal LLMs we considered, as evidenced by this [leaderboard](https://opencompass.org.cn/leaderboard-multimodal)
     - The other multi-modal LLMs considered were MiniGPT-4 and InstructBLIP
 
 <br>
