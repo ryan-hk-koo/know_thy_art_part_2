@@ -45,3 +45,11 @@ With these, we're not only expanding our services, but also strengthening our co
 
 ### Surrealism Style Training Before & After 
 ![image](https://github.com/ryan-hk-koo/know_thy_art_part_2/assets/143580734/e4dd77d5-1577-4008-a3fd-bb950c4e5f18)
+
+# Art Chatbot
+- Designed to field user questions about art, sourcing detailed answers through a combination of database queries and web searches
+- Utilizes OpenAI's GPT models (text-davinci-003 & gpt-3.5-turbo-16k) with prompt engineering to ascertain if a user's question pertains to art
+- When art-related queries are identified, the chatbot consults a pre-established database to fetch answers. This involves utilizing prompt engineering with the GPT models to generate the appropriate SQLite3 query statements
+- If no match is found within the database, the service, guided by prompt engineering, crafts an optimized Google search term. The chatbot then uses Selenium with a headless ChromeDriver, complemented by BeautifulSoup, to retrieve comprehensive answers from the web
+- Should a user's question not be art-centric, they are reminded to focus on art-related inquiries
+
