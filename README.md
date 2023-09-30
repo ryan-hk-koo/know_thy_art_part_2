@@ -67,7 +67,7 @@ With these, we are not only expanding our services, but also strengthening our c
 # Conclusion & Reflections
 - The 'Speech to Art to Speech' service was successfully developed by integrating multiple tools. However, this integration resulted in a slower process
 - Training the Stable Diffusion XL with our dataset notably improved the quality of image outputs, in this case with impressionism and surrealism styles
-- While the chatbot is efficient, its reliability is somewhat compromised due to its reliance on internet searches. This highlights the importance of creating a more comprehensive in-house database to enhance its question-answering capabilities
+- While the chatbot is efficient, its reliability is somewhat compromised due to its partial reliance on internet searches. This highlights the importance of creating a more comprehensive in-house database to enhance its question-answering capabilities
 - Both 'Know Thy Art Part One' and 'Know Thy Art Part Two' showcase the potential of blending art with artificial intelligence. We believe there's much more to explore and achieve in this area
 
 
