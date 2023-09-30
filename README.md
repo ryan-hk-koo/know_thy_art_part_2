@@ -9,6 +9,8 @@
 
 [![Streamlit Demo](https://img.youtube.com/vi/CgBtw9AcVYY/0.jpg)](https://youtu.be/CgBtw9AcVYY)
 
+<br>
+
 # Purpose
 Building upon 'Know Thy Art Part 1' — which sought to deepen art appreciation and engagement — we further envisioned a space where art accessibility and interaction are paramount, especially for those who might experience art differently, such as the visually impaired. The second part of 'Know Thy Art' retains the core philosophy of fostering a profound connection with art but pushes the boundaries by introducing: 
 
@@ -23,6 +25,7 @@ With these, we are not only expanding our services, but also strengthening our c
 # Know Thy Art Audio Assistance
 ![image](https://github.com/ryan-hk-koo/know_thy_art_part_2/assets/143580734/97a2b0ee-5ed9-45ab-b117-6ca19b8318f6)
 - Used the Naver CLOVA Voice API to convert text into speech due to its high-quality, natural-sounding voice outputs and its customization options
+
 <br>
 
 # Speech to Art to Speech
@@ -40,11 +43,17 @@ With these, we are not only expanding our services, but also strengthening our c
 
 ![image](https://github.com/ryan-hk-koo/know_thy_art_part_2/assets/143580734/ca0797dc-b2f6-4e57-bcd4-76669f14d18d)
 
+<br>
+
 ### Impressionism Style Training Before & After 
 ![image](https://github.com/ryan-hk-koo/know_thy_art_part_2/assets/143580734/ec7d6297-4a16-4895-94be-5a79d94ccb78)
 
+<br>
+
 ### Surrealism Style Training Before & After 
 ![image](https://github.com/ryan-hk-koo/know_thy_art_part_2/assets/143580734/e4dd77d5-1577-4008-a3fd-bb950c4e5f18)
+
+<br>
 
 # Art Chatbot
 - Designed to field user questions about art, sourcing detailed answers through a combination of database queries and web searches
@@ -52,6 +61,8 @@ With these, we are not only expanding our services, but also strengthening our c
 - When art-related queries are identified, the chatbot consults a pre-established database to fetch answers. This involves utilizing prompt engineering with the GPT models to generate the appropriate SQLite3 query statements
 - If no match is found within the database, the service, guided by prompt engineering, crafts a Google search term. The chatbot then uses Selenium with a headless ChromeDriver, complemented by BeautifulSoup, to retrieve comprehensive answers from the web
 - Users are guided to ask art-related questions if their inquiries stray off-topic.
+
+<br>
 
 # Conclusion & Reflections
 - The 'Speech to Art to Speech' service was successfully developed by integrating multiple tools. However, this integration resulted in a slower process
