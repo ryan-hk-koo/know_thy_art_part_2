@@ -1,6 +1,6 @@
 # Know Thy Art Part Two
 - This project serves as both a continuation and an extension of [know_thy_art_part_1](https://github.com/ryan-hk-koo/know_thy_art_part_1)  
-- Continuation as an audio component was added to describe the style of the input painting and to provide an auditory guide on how to appreciate its style
+- Continuation as an audio component was added to 'Know Thy Art's Western Art Style Insight Tool' in identifying the style of the input painting and providing a guide on the nuances of each art style
 - Extension as new features like 'Speech to Art to Speech' and the 'Art Chatbot' were newly developed and incorporated into the service 
 
 <br>
@@ -11,7 +11,7 @@
 
 # Purpose
 We aimed to create a playground for individuals who have a passion for art or are keen to learn more about it
-- **Know Thy Art Continuation**: We added an audio component to assist visually impaired individuals
+- **Know Thy Art**: We added an audio component to assist visually impaired individuals
 - **Speech To Art to Speech**: Taking inspiration from Text-to-Image and Image-to-Text AI models, we ventured a step further to enable the creation of art through speech and then to translate the art back into speech descriptions. This empowers blind individuals to craft their own artworks and understand them through auditory descriptions
 - **Art Chatbot**: Introduced to allow users to pose specific questions about art that aren't addressed by our other services, facilitating a deeper exploration of art
 
