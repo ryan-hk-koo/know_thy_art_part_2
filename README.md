@@ -5,7 +5,7 @@
 
 <br>
 
-- Streamlit Demo on Youtube (turn sound on!)
+- Streamlit Demo on Youtube (turn the sound on!)
 
 [![Streamlit Demo](https://img.youtube.com/vi/CgBtw9AcVYY/0.jpg)](https://youtu.be/CgBtw9AcVYY)
 
