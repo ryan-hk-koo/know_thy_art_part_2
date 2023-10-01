@@ -1,6 +1,6 @@
 # Know Thy Art Part Two
 - This project serves as both a continuation and an extension of [Know_Thy_Art_Part_1](https://github.com/ryan-hk-koo/know_thy_art_part_1)  
-- As a continuation, an audio component was added to 'Know Thy Art' in identifying the style of the input painting and providing a guide on the nuances of each art style (Western Art Style Insight Tool)
+- As a continuation, an audio component was added to 'Know Thy Art' in identifying the style of the input painting and highlighting the nuances of each art style (Western Art Style Insight Tool)
 - As an extension, new features, namely 'Speech to Art to Speech' and the 'Art Chatbot,' were developed and incorporated into the service 
 
 <br>
@@ -12,13 +12,11 @@
 <br>
 
 # Purpose
-Building upon 'Know Thy Art Part 1' — which sought to deepen art appreciation and engagement — we further envisioned a space where art accessibility and interaction are paramount, especially for those who might experience art differently, such as the visually impaired. The second part of 'Know Thy Art' retains the core philosophy of fostering a profound connection with art but pushes the boundaries by introducing: 
+Building on 'Know Thy Art Part 1' — which aimed to transform and deepen art engagement — our second phase prioritizes art accessibility and interaction, especially for those with visual impairments. 'Know Thy Art Part 2' maintains our foundational philosophy of deepening connections with art, while introducing the following new innovative tools: 
 
-- **Know Thy Art Audio Assistance**: Complementing our original work, we integrated an audio component, ensuring that even visually impaired individuals can engage and resonate with the various styles of the paintings and their nuances 
-- **Speech To Art to Speech**: Inspired by Text-to-Image and Image-to-Text AI models, we ventured a step further. Now, users can create art through speech and subsequently translate visual art back into descriptive narratives, empowering blind or visually impaired individuals to both create and comprehend art in an auditory manner
-- **Art Chatbot**: Introduced to allow users to pose specific questions about art that are not addressed by our other services, facilitating a deeper exploration of art
-
-With these, we are not only expanding our services, but also strengthening our commitment to making art a personalized, inclusive, and immersive experience for everyone
+- **Know Thy Art Audio Assistance**: Complementing our original work, we integrated an audio component to make art more accessible to visually impaired individuals, allowing them to engage with the various styles of the paintings and their nuances 
+- **Speech To Art to Speech**: Inspired by Text-to-Image and Image-to-Text AI models, this feature lets users generate art through speech and then translate visual art back into auditory descriptions. This empowers visually impaired individuals to both create and understand art in a new dimension
+- **Art Chatbot**: A chatbot that allows users ask specific questions about art, bridging any information gaps not covered by our other tools
 
 <br>
 
@@ -39,35 +37,37 @@ With these, we are not only expanding our services, but also strengthening our c
 
 <br>
 
-## Training Stable Diffusion XL
+## Fine-Tuning Stable Diffusion XL
 
-![image](https://github.com/ryan-hk-koo/know_thy_art_part_2/assets/143580734/ca0797dc-b2f6-4e57-bcd4-76669f14d18d)
-
-<br>
-
-### Impressionism Style Training Before & After 
-![image](https://github.com/ryan-hk-koo/know_thy_art_part_2/assets/143580734/ec7d6297-4a16-4895-94be-5a79d94ccb78)
+![image](https://github.com/ryan-hk-koo/know_thy_art_part_2/assets/143580734/b87ab8b5-b5ff-446c-90ff-a3ff7f5dfb44)
 
 <br>
 
-### Surrealism Style Training Before & After 
-![image](https://github.com/ryan-hk-koo/know_thy_art_part_2/assets/143580734/e4dd77d5-1577-4008-a3fd-bb950c4e5f18)
+### Fine-Tuning for Impressionism Style: Before & After 
+![image](https://github.com/ryan-hk-koo/know_thy_art_part_2/assets/143580734/a5960fdf-150d-4536-8007-52098ac06e3c)
+
+
+<br>
+
+### Fine-Tuning for Surrealism Style: Before & After
+![image](https://github.com/ryan-hk-koo/know_thy_art_part_2/assets/143580734/b0192dc7-0bd0-4a3e-9075-343175376481)
+
 
 <br>
 
 # Art Chatbot
-- Designed to field user questions about art, sourcing detailed answers through a combination of database queries and web searches
-- Utilizes OpenAI's GPT models (text-davinci-003 & gpt-3.5-turbo-16k) with prompt engineering to ascertain if a user's question pertains to art
-- When art-related queries are identified, the chatbot accesses the database to fetch answers. This involves utilizing prompt engineering with the GPT models to generate SQLite3 query statements
-- If no match is found within the database, the service, guided by prompt engineering, crafts a Google search term. The chatbot then uses Selenium with a headless ChromeDriver, complemented by BeautifulSoup, to retrieve comprehensive answers from the web
-- Users are guided to ask art-related questions if their inquiries stray off-topic
+- Designed to address user questions about art, deriving answers from a mix of database queries and web searches
+- Employs OpenAI's GPT models (text-davinci-003 & gpt-3.5-turbo-16k) with prompt engineering to determine if a user's question is art-related
+- Upon identifying art-centric queries, the chatbot taps into the database for answers. This process involves using prompt engineering with the GPT models to craft SQLite3 query statements
+- If the database doesn't yield a match, the service, through prompt engineering, formulates a Google search term. Subsequently, the chatbot employs Selenium with a headless ChromeDriver, aided by BeautifulSoup, to fetch detailed answers from the web
+- Users are encouraged to keep their inquiries art-specific if they deviate from the topic
 
 <br>
 
 # Conclusion & Reflections
-- The 'Speech to Art to Speech' service was successfully developed by integrating multiple tools. However, this integration resulted in a slower process
-- Training the Stable Diffusion XL with our dataset notably improved the quality of image outputs, in this case with impressionism and surrealism styles
-- While the chatbot is efficient, its reliability is somewhat compromised due to its partial reliance on internet searches. This highlights the importance of creating a more comprehensive in-house database to enhance its question-answering capabilities
-- Both 'Know Thy Art Part One' and 'Know Thy Art Part Two' showcase the potential of blending art with artificial intelligence. We believe there's much more to explore and achieve in this area
+- The 'Speech to Art to Speech' service was successfully developed by integrating multiple tools. However, this integration led to slower processing time for the service
+- Fine-tuning the Stable Diffusion XL with our dataset significantly enhanced the quality of the image outputs, especially for the impressionism and surrealism styles
+- The chatbot, while efficient, has some reliability concerns due to its partial dependency on internet searches. This underscores the need for a more extensive in-house database to boost its question-answering capabilities
+- Both 'Know Thy Art Part One' and 'Know Thy Art Part Two' demonstrate the exciting possibilities when art meets artificial intelligence. In this domain, the potential is vast, opening doors to boundless opportunities
 
 
